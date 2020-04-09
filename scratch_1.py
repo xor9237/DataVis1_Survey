@@ -1,7 +1,7 @@
 import pandas as pd
-import numpy as np
 
-df_survey = pd.read_csv('/Users/kitaeklee/Desktop/Data/coursera_survey/Topic_Survey_Assignment.csv')
+
+df_survey = pd.read_csv('/Users/kitaeklee/PycharmProjects/coursera_vis/Topic_Survey_Assignment.csv')
 
 
 df_survey = df_survey.sort_values(by=['Very interested'],
